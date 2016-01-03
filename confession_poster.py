@@ -12,7 +12,7 @@ from datetime import datetime
 from oauth2client.client import SignedJwtAssertionCredentials
 
 #-----------------------
-#MODIFY THE FOLLOWING VARS -> SHEET NAME, sleep amount, First Cell, Column of data, Column of time, page id
+#MODIFY THE FOLLOWING VARS -> SHEET NAME, sleep amount, First Cell, columnToBeReadData, columnToBeReadTime, page id
 #-----------------------
 
 json_key = json.load(open('Name of json file acquired from google project manager'))
